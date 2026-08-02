@@ -1,0 +1,122 @@
+=== Individual Model Performance ===
+
+ExtraTreesRegressor_StandardScaler_25:
+  CV R2: 0.828770
+  CV MAE: 0.380546
+  CV RMSE: 0.504967
+  CV NRMSE: 0.081446
+  CV Spearman: 0.870243
+  Test R2: 0.806683
+  Test MAE: 0.343344
+  Test RMSE: 0.496571
+  Test NRMSE: 0.109137
+  Test Spearman: 0.889110
+
+ExtraTreesRegressor_RobustScaler_100:
+  CV R2: 0.826701
+  CV MAE: 0.380596
+  CV RMSE: 0.508009
+  CV NRMSE: 0.081937
+  CV Spearman: 0.877096
+  Test R2: 0.808853
+  Test MAE: 0.345716
+  Test RMSE: 0.493777
+  Test NRMSE: 0.108522
+  Test Spearman: 0.892162
+
+ExtraTreesRegressor_StandardScaler_200:
+  CV R2: 0.827214
+  CV MAE: 0.379299
+  CV RMSE: 0.507257
+  CV NRMSE: 0.081816
+  CV Spearman: 0.874462
+  Test R2: 0.823252
+  Test MAE: 0.334712
+  Test RMSE: 0.474814
+  Test NRMSE: 0.104355
+  Test Spearman: 0.905657
+
+DecisionTreeRegressor_RobustScaler:
+  CV R2: 0.751377
+  CV MAE: 0.435070
+  CV RMSE: 0.608477
+  CV NRMSE: 0.098141
+  CV Spearman: 0.854546
+  Test R2: 0.681942
+  Test MAE: 0.450246
+  Test RMSE: 0.636942
+  Test NRMSE: 0.139987
+  Test Spearman: 0.802111
+
+ExtraTreesRegressor_MinMaxScaler_50:
+  CV R2: 0.824565
+  CV MAE: 0.382818
+  CV RMSE: 0.511130
+  CV NRMSE: 0.082440
+  CV Spearman: 0.870729
+  Test R2: 0.822053
+  Test MAE: 0.332478
+  Test RMSE: 0.476422
+  Test NRMSE: 0.104708
+  Test Spearman: 0.903606
+
+ExtraTreesRegressor_MinMaxScaler_25:
+  CV R2: 0.821409
+  CV MAE: 0.384549
+  CV RMSE: 0.515707
+  CV NRMSE: 0.083179
+  CV Spearman: 0.869736
+  Test R2: 0.801077
+  Test MAE: 0.360737
+  Test RMSE: 0.503720
+  Test NRMSE: 0.110708
+  Test Spearman: 0.886849
+
+ElasticNet_MinMaxScaler:
+  CV R2: 0.796568
+  CV MAE: 0.421255
+  CV RMSE: 0.550405
+  CV NRMSE: 0.088775
+  CV Spearman: 0.845831
+  Test R2: 0.726193
+  Test MAE: 0.423132
+  Test RMSE: 0.590975
+  Test NRMSE: 0.129885
+  Test Spearman: 0.843044
+
+XGBoostRegressor_MaxAbsScaler:
+  CV R2: 0.792664
+  CV MAE: 0.418930
+  CV RMSE: 0.555661
+  CV NRMSE: 0.089623
+  CV Spearman: 0.847063
+  Test R2: 0.815869
+  Test MAE: 0.359627
+  Test RMSE: 0.484629
+  Test NRMSE: 0.106512
+  Test Spearman: 0.896103
+
+LightGBMRegressor_MaxAbsScaler:
+  CV R2: 0.810523
+  CV MAE: 0.397690
+  CV RMSE: 0.531193
+  CV NRMSE: 0.085676
+  CV Spearman: 0.868639
+  Test R2: 0.816685
+  Test MAE: 0.339885
+  Test RMSE: 0.483555
+  Test NRMSE: 0.106276
+  Test Spearman: 0.878659
+
+=== Voting Ensemble Performance ===
+
+CV R2: 0.841227
+CV MAE: 0.363970
+CV RMSE: 0.486252
+CV NRMSE: 0.078428
+CV Spearman: 0.883485
+Test R2: 0.833108
+Test MAE: 0.326437
+Test RMSE: 0.461386
+Test NRMSE: 0.101404
+Test Spearman: 0.906665
