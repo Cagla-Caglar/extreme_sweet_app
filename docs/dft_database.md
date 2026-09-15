@@ -1,7 +1,7 @@
 # DFT Database
 
 This section provides access to quantum chemical calculation results for sweetener compounds included in the Extreme Sweet Database.
-A total of 278 molecules were optimized at the DFT level using the B3LYP functional and 6-311++G(d,p) basis set.  For each molecule, 
+A total of 276 molecules were optimized at the DFT level using the B3LYP functional and 6-311++G(d,p) basis set.  For each molecule, 
 optimized 3D geometries, infrared (IR) spectra, Raman spectra, and Raman activity analyses are provided.
 
 ## Available Data:
