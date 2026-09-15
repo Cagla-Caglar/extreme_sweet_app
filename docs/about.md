@@ -11,7 +11,7 @@ without any institutional funding, affiliation, or infrastructure support, repre
 fully self-initiated and independently executed scientific endeavor.
 
 This study involves an extensive dataset of 316 molecules subjected to DFT geometry optimization, of which 
-278 yielded converged frequency calculations providing infrared (IR) spectra, Raman spectra, and Raman activity 
+276 yielded converged frequency calculations providing infrared (IR) spectra, Raman spectra, and Raman activity 
 analyses. These computational results are provided in an interactive and downloadable format, allowing researchers 
 to explore molecular properties dynamically.
 
